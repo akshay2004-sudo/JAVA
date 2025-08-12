@@ -30,7 +30,11 @@ public class basicOperation {
         double s = (double) (a * b) / (a - b); // Cast to double for accurate division
 
         // Printing the results 
-        System.out.println("teh entered name is: " + name);
+        // Printing the name..
+        System.out.println("the entered name is: " + name);
+        //displaying the value of a and b
+        System.out.println("Value of a: " + a);
+        System.out.println("Value of b: " + b);
         System.out.println("Sum: " + sum);
         System.out.println("Difference: " + difference);
         System.out.println("Product: " + product);
