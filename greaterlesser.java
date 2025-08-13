@@ -18,6 +18,7 @@ public class greaterlesser {
         } else {
             System.out.println("Both numbers are equal.");
         }
+        // Closing the scanner
         sc.close(); // Closing the scanner
     }
 }
