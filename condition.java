@@ -19,6 +19,7 @@ public class condition {
         else {
             System.out.println("The person is a senior citizen.");
         }
+        sc.close();
 
     }
     
