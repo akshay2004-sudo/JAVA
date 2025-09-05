@@ -19,6 +19,7 @@ public class tworandomnumber {
         System.out.println("The product of " + num1 + " and " + num2 + " is: " + result);
         // Closing the scanner
         sc.close();
-    }
+    } 
     
 }
+// End of the program
