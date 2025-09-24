@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class re {
 public static void PrintW(int a,int b,int n){
     if(a==b){
-        sum =++a;
+        n =++a;
         System.out.println(a);
     }
-sum=++i;
+n=++a;
 PrintW(a,b,n);
 }    
 public static void main(String args[]){
