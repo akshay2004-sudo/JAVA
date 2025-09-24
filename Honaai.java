@@ -8,9 +8,9 @@ public class Honaai {
             System.out.println("move from "+s+"to "+d);
             return;
         }
-        tower(n-1,s,h,d);
+        tower(n-1,s,h,d);//n-1 disks move from source to helper using destination as helper.
         System.out.println("move "+n+"from "+s+"to "+d);
-        tower(n-1,h,s,d);
+        tower(n-1,h,s,d);//n-1 disks move from helper to destination using source as helper.
 
     }
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class Honaai {
         System.out.print("enter the number of disks:");
         int n=sc.nextInt();
         System.out.println("the steps are:"+n);
-        tower(n,"source","helper","destination");
+        tower(n,"S","H","D");//S=source , H=helper , D=destination.
         sc.close();
     }
     // Your code goes here
