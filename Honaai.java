@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Honaai {
     public static void tower(int n ,String s,String h ,String d){
         if(n==1){
-            System.out.println("move from "+s+"to "+d);
+            System.out.println("move from "+s+" to "+d);
             return;
         }
         tower(n-1,s,h,d);//n-1 disks move from source to helper using destination as helper.
-        System.out.println("move "+n+"from "+s+"to "+d);
+        System.out.println(" move "+n+" from "+s+" to "+d);
         tower(n-1,h,s,d);//n-1 disks move from helper to destination using source as helper.
 
     }
